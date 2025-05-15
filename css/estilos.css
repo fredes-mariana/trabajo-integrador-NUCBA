@@ -1,0 +1,214 @@
+.toggle {
+  display: none;
+}
+.menuh {
+  width: 30px;
+  cursor: pointer;
+  margin: 10px;
+  display: block;
+}
+.linea {
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+nav {
+  display: none;
+}
+.toggle:checked + .menuh + nav {
+  display: block;
+}
+.navlist {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  border-radius: 15px;
+  width: 150px;
+  box-shadow: 15 4px 8px rgba(0,0,0,0.2);
+}
+.navlist li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+body {
+  font-family: 'Bangers', Arial, sans-serif;
+  background-color: #4b0082; 
+  margin: 0;
+  color: black;
+}
+.hero .img img {
+  display: block;
+  margin: 30px auto;
+  width: 150px; 
+  height: auto;
+  border-radius: 70px;
+}
+.hero .title {
+  text-align: center;
+  margin-top: 10px;}
+
+.contactos {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contactos img.iconomail {
+  width: 40px;
+  height: auto;
+}
+#about-us {
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+
+#about-us h2 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+#about-us p {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.presentacion {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.integrante {
+  background-color: #4b0082;
+  border-radius: 20px;
+  box-shadow: 15px 10px 6px rgba(0,0,0,0.15);
+  width: 180px;
+  padding: 15px;
+  text-align: center;
+}
+
+.integrante img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.integrante h3 {
+  margin: 5px 0;
+  font-size: 1.2em;
+}
+
+.integrante p {
+  font-size: 1em;
+  color: #555;
+  margin: 0;
+}
+
+
+#contact {
+  padding: 30px 20px;
+  text-align: center;
+  color: black;
+}
+
+#contact h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-shadow: 15px 10px 4px rgba(0,0,0,0.2);
+}
+
+#contact p {
+  margin-bottom: 25px;
+  font-size: 1.2em;
+}
+
+#contact form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form, .form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  font-size: 1em;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #7b68ee;
+}
+
+button[type="submit"] {
+  background-color: #7b68ee;
+  font-size: 1.1em;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #5a4fcf;
+}
+#escuchanos {
+  padding: 20px;
+  font-family: 'Bagels', cursive, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+#escuchanos .titulo h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
+}
+
+#escuchanos .media .links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+#escuchanos .media .links li {
+  background-color: #7b68ee;
+  border-radius: 10px;
+  padding: 12px 25px;
+  transition: background-color 0.3s ease;
+  min-width: 110px;
+}
+
+#escuchanos .media .links li:hover {
+  background-color: #5a4fcf;
+}
+
+#escuchanos .media .links li a {
+  font-size: 1.1em;
+  font-weight: bold;
+  display: block;
+  color: black;
+}
